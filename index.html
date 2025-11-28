@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thakur Shab | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-left">
+                <!-- BK LOGO -->
+                <!-- apna BK logo yahan use karo: logo.png -->
+                <img src="logo.png" alt="BK Logo" class="nav-logo">
+                <span class="brand-name">Thakur Shab</span>
+            </div>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="menu-btn" id="menu-btn">☰</div>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="hero-inner">
+            <div class="hero-left">
+                <p class="hero-tag">Hi, I am</p>
+                <h1 class="hero-title">Thakur <span>Shab</span></h1>
+                <p class="hero-subtitle">Aspiring Web Developer & Tech Enthusiast</p>
+                <p class="hero-text">
+                    I create clean, modern and responsive websites with a focus on
+                    simplicity, performance and user experience.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#contact" class="btn secondary">Hire Me</a>
+                </div>
+            </div>
+
+            <div class="hero-right">
+                <!-- PROFILE PHOTO -->
+                <!-- apni full body / crop photo ko profile.jpg naam se save karo -->
+                <div class="profile-wrapper">
+                    <img src="profile.jpg" alt="Thakur Shab" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section" id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="section-line"></div>
+
+        <div class="about-grid">
+            <div>
+                <h3 class="about-heading">Who is Thakur Shab?</h3>
+                <p class="about-text">
+                    I am a passionate learner focused on web development and modern
+                    technologies. I love building beautiful, functional interfaces
+                    using HTML, CSS and JavaScript.
+                </p>
+                <p class="about-text">
+                    My goal is to become a skilled software engineer and work on
+                    high-impact projects, while continuously improving my problem-
+                    solving and coding skills.
+                </p>
+                <ul class="about-list">
+                    <li>💻 Frontend Web Development</li>
+                    <li>📚 Always learning new tech & tools</li>
+                    <li>🎯 Focused, disciplined and growth-oriented</li>
+                </ul>
+            </div>
+
+            <div class="about-card">
+                <h3>Basic Info</h3>
+                <p><span>Name:</span> Thakur Shab</p>
+                <p><span>Role:</span> Web Developer (Student)</p>
+                <p><span>Location:</span> India</p>
+                <p><span>Email:</span> sharmab7615@gmail.com</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="section-line"></div>
+
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Frontend</h3>
+                <p>HTML, CSS, JavaScript, Responsive Design</p>
+            </div>
+            <div class="skill-card">
+                <h3>Programming</h3>
+                <p>C, C++, Python (Basics)</p>
+            </div>
+            <div class="skill-card">
+                <h3>Tools</h3>
+                <p>VS Code, Git & GitHub, Figma (Basic)</p>
+            </div>
+            <div class="skill-card">
+                <h3>Soft Skills</h3>
+                <p>Communication, Discipline, Problem Solving</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="section" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="section-line"></div>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Personal Portfolio</h3>
+                <p>
+                    A responsive personal portfolio website made with HTML, CSS and
+                    JavaScript to showcase my skills and projects.
+                </p>
+                <span class="project-tag">HTML • CSS • JS</span>
+            </div>
+            <div class="project-card">
+                <h3>Landing Page UI</h3>
+                <p>
+                    Modern landing page with clean layout, smooth scrolling and
+                    responsive design for all screen sizes.
+                </p>
+                <span class="project-tag">Frontend</span>
+            </div>
+            <div class="project-card">
+                <h3>Mini JavaScript Apps</h3>
+                <p>
+                    Small projects like calculator, counter app and to-do list to
+                    practice JavaScript logic.
+                </p>
+                <span class="project-tag">JavaScript</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section" id="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="section-line"></div>
+
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <p>
+                    Ready to work together or want to discuss an opportunity?
+                    Send me a message and I’ll reply as soon as possible.
+                </p>
+                <p>📧 <strong>sharmab7615@gmail.com</strong></p>
+            </div>
+
+            <form class="contact-form" id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required />
+                <input type="email" name="email" placeholder="Your Email" required />
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn primary full">Send Message</button>
+                <p class="form-status" id="form-status"></p>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© <span id="year"></span> Thakur Shab. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
